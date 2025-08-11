@@ -55,7 +55,6 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
-//    implementation(libs.androidx.material3)
     implementation(libs.androidx.foundation.layout.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -77,4 +76,10 @@ dependencies {
     implementation (libs.androidx.room.ktx)
 
     implementation (libs.kotlinx.coroutines.android)
+
+    implementation(libs.koin.android)
+
+
+
+    implementation (libs.koin.core)
 }
